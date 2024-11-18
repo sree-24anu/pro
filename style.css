@@ -1,0 +1,45 @@
+.weather
+{
+    width: 550px;
+    margin: auto;
+    border: 1px solid black;
+    min-height: 100px;
+    height: auto;
+    border-radius: 20px;
+    background: linear-gradient(230deg, #77a1c9, #ee82ee);
+}
+/* .display img
+{
+    height: 160px;
+    display: none;
+    opacity: 0;
+    margin-left:175px;
+} */
+.display
+{
+    display: none;
+}
+
+.search button
+{
+    margin-left: 10px;
+    border : 0px;
+    background-color: transparent;
+    max-height: 29px;
+}
+.search input[type="text"]
+{
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#humidity,
+#windspeed
+{
+    margin-bottom: 6px;
+}
+#error
+{
+    /* display: none; */
+    color: white;
+    margin-left: 5px;
+}

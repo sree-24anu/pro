@@ -1,3 +1,10 @@
+body
+{
+    background-image: url(https://wallpaperbat.com/img/65943-beautiful-dark-landscape-wallpaper-top-free-beautiful-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
 .weather
 {
     width: 550px;
@@ -6,7 +13,7 @@
     min-height: 100px;
     height: auto;
     border-radius: 20px;
-    background: linear-gradient(230deg, #77a1c9, #ee82ee);
+    background: linear-gradient(250deg, #77a1c9, #ee82ee, transparent);
 }
 /* .display img
 {
@@ -42,4 +49,3 @@
     /* display: none; */
     color: white;
     margin-left: 5px;
-}
